@@ -5,7 +5,7 @@ import User from '../models/User';
 
 class Session {
   async store(req, res) {
-    const { name, email } = req.body;
+    const { email, password } = req.body;
 
     const user = await User.findOne({ where: { email } });
 
@@ -13,7 +13,7 @@ class Session {
       return res.status(401).json({ error: 'Email not registered' });
     }
 
-    const { id, password } = req.body;
+    const { id, name } = user;
 
     if (!(await user.checkPassword(password))) {
       return res.status(401).json({ error: 'Wrong password' });
