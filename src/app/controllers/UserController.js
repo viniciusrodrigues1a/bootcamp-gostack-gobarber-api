@@ -51,7 +51,7 @@ class UserController {
       return res.status(400).json({ error: 'Validation failed' });
     }
 
-    const { email, oldPassword, password } = req.body;
+    const { email, oldPassword } = req.body;
 
     const user = await User.findByPk(req.userId);
 
