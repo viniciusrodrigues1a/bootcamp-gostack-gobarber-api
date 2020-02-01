@@ -3,7 +3,7 @@ import User from '../models/User';
 
 class UserController {
   async store(req, res) {
-    const schema = Yup.object({
+    const schema = Yup.object().shape({
       name: Yup.string().required(),
       email: Yup.string()
         .email()
@@ -33,7 +33,7 @@ class UserController {
   }
 
   async update(req, res) {
-    const schema = Yup.object({
+    const schema = Yup.object().shape({
       name: Yup.string(),
       email: Yup.string().email(),
       oldPassword: Yup.string().min(6),
