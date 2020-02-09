@@ -27,37 +27,43 @@ yarn install
 
 ### Instalação
 
-Configurar a conexão com o sequelize em src/config/database.js
+Configurar as váriaveis de ambiente conforme o .env.example:
 
-```js
-module.exports = {
-  dialect: 'postgres', // veja https://sequelize.org/v5/manual/dialects.html para mais informações sobre dialects
-  host: 'localhost',
-  port: 5432,
-  username: 'postgres',
-  password: 'postgres',
-  database: 'gobarber',
-  define: {
-    timestamps: true,
-    underscored: true,
-    underscoredAll: true
-  }
-};
 ```
+APP_URL=http://localhost:3333
+NODE_ENV=development
 
-Configurar a conexão com o mongoose em src/database/index.js
+# Auth
 
-```js
-mongo() {
-  this.mongoConnection = mongoose.connect(
-    'mongodb://localhost:27017/gobarber', // <-- string de conexão aqui
-    {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-      useFindAndModify: true,
-    }
-  );
-}
+APP_SECRET= // <-- jwt secret
+
+# Database
+
+DB_HOST= // <-- sequelize db host
+DB_USER= // <-- sequelize db user
+DB_PASS= // <-- sequelize db pass
+DB_NAME= // <-- sequelize db name
+
+# Mongo
+
+MONGO_URL= // <-- mongodb connection string
+
+# Redis
+
+REDIS_HOST=localhost
+REDIS_PORT=6379
+
+# Mail
+
+MAIL_HOST=
+MAIL_PORT=
+MAIL_USER=
+MAIL_PASS=
+
+# Sentry
+
+SENTRY_DSN=
+
 ```
 
 Rodando a aplicação:
