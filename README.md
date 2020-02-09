@@ -74,4 +74,4 @@ yarn dev
 - [Mongoose](https://mongoosejs.com/) - ODM
 - [Express](https://expressjs.com/) - Server Framework
 - [NodeJS](https://nodejs.org/en/) - Server Environment
-- [JWT](https://jwt.io/)
+- [JsonWebToken](https://www.npmjs.com/package/jsonwebtoken)
