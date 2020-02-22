@@ -13,6 +13,7 @@
 - [Sobre](#about)
 - [Primeiros passos](#getting_started)
 - [Feito com](#built_using)
+- [Licença](#license)
 
 ## 🧐 Sobre <a name = "about"></a>
 
@@ -86,6 +87,6 @@ yarn dev
 - [JsonWebToken](https://www.npmjs.com/package/jsonwebtoken)
 
 
-## :memo: Licença
+## :memo: Licença <a name = "license"></a>
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
