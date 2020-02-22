@@ -80,7 +80,7 @@ yarn dev
 
 - [PostgresSQL](https://www.postgresql.org/) - Database
 - [MongoDB](https://www.mongodb.com/) - Database
-= [Redis](https://redis.io/) - Database
+- [Redis](https://redis.io/) - Database
 - [Sequelize](https://sequelize.org/) - ORM
 - [Mongoose](https://mongoosejs.com/) - ODM
 - [Express](https://expressjs.com/) - Server Framework
