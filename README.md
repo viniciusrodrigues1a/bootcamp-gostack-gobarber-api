@@ -8,12 +8,6 @@
 
 <p align="center"> Projeto desenvolvido no <a href="https://rocketseat.com.br/bootcamp">Bootcamp GoStack</a> 🎓</p>
 
-<h3 align="center">GoBarber</h3>
-
-<p align="center"> Projeto desenvolvido no bootcamp GoStack da <a href="https://github.com/RocketSeat">Rocketseat</a>
-    <br> 
-</p>
-
 ## :page_facing_up: Índice
 
 - [Sobre](#about)
