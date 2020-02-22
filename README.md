@@ -1,10 +1,20 @@
+<h1 align="center">
+    <img alt="GoStack" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-header.png" width="200px" />
+</h1>
+
+<h3 align="center">
+  Desenvolvendo API do GoBarber
+</h3>
+
+<p align="center"> Projeto desenvolvido no <a href="https://rocketseat.com.br/bootcamp">Bootcamp GoStack</a> 🎓</p>
+
 <h3 align="center">GoBarber</h3>
 
 <p align="center"> Projeto desenvolvido no bootcamp GoStack da <a href="https://github.com/RocketSeat">Rocketseat</a>
     <br> 
 </p>
 
-## 📝 Índice
+## :page_facing_up: Índice
 
 - [Sobre](#about)
 - [Primeiros passos](#getting_started)
@@ -63,12 +73,11 @@ MAIL_PASS=
 # Sentry
 
 SENTRY_DSN=
-
 ```
 
 Rodando a aplicação:
 
-```js
+```sh
 yarn dev
 ```
 
@@ -81,3 +90,8 @@ yarn dev
 - [Express](https://expressjs.com/) - Server Framework
 - [NodeJS](https://nodejs.org/en/) - Server Environment
 - [JsonWebToken](https://www.npmjs.com/package/jsonwebtoken)
+
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
