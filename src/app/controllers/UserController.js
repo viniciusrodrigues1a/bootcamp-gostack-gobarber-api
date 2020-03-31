@@ -30,7 +30,7 @@ class UserController {
         provider,
       });
     }
-    return res.json({ error: 'Email already registered' });
+    return res.status(400).json({ error: 'Email already registered' });
   }
 
   async update(req, res) {
